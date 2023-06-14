@@ -1,0 +1,61 @@
+
+    Assignment Operator
+        - ใช้กำหนดค่าให้กับตัวแปรง
+        - int x = 10;
+
+    Arithmetic operator (ตัวดำเนินการทางคณิตศาสตร์)
+        > + (Addition)
+        > - (Subtraction) 
+        > * (Multiplication)
+        > / (Division)
+        > % (Modulo)
+
+    Compound Assignment
+        - ใช้เพื่อแก้ไขค่าปัจจุบันของตัวแปรโดยใช้ตัวดำเนินการทางคณิตศาสตร์และดำเนินการกำหนดค่าในเวลาเดียวกัน
+        - ที่ใช้บ่อย
+            > +=    a += 2;
+            > -=    a -= 2;
+            > *=    a *= 2;
+            > /=    a /= 2;
+            > %=    a %= 2;
+        
+    Increment และ decrement (++, --)
+        - ใช้เพื่อเพิ่มลดค่าของตัวแปรทีละ 1
+
+    Relational และ Comparison operators 
+        - ตัวดำเนินการใช้สำหรับเปรียบเทียบระะหว่างตัวแปร
+        - ผลลัพธ์ของการดำเนินการจะมีแค่ true, false
+        - โดยปกติจะใช้กับ if, for, while, do while
+
+    Logical operator
+        - ใช้ดำเนินการทางตรรกะ เพื่อประเมิน expression
+        - ตำดำเนินการ
+            > !     not     !(n == 1)
+                - ใช้กลับค่า Boolean จากจริงเป็นเท็จ หรือเท็จเป็นจริง
+            > &&    and     a == 1 && b == 1
+                - เงียนไขทั้งคู่จะต้องถูกต้อง
+            > ||    Or      a == 1 || b == 1
+                - เงื่อนไขอันใดอันหนึ่งถูกต้อง
+
+    Conditional ternary operator (?)
+        - เป็นการเขียนประเมิน expression 
+        - เป็น if แบบย่อ
+        - condition ? value1 : value2;
+
+    Bitwise operators 
+        - ข้าม
+
+    Explicit type casting operator
+        - เป็นการแปลงประเภทข้อมูล
+        - ตัวอย่าง:
+            float b = 10.25;
+            int a = (int) b;
+
+    ลำดับความสำคัญ
+        - Primary                   ซ้ายไปขวา        ()
+        - Pointer to Member         ซ้ายไปขวา        .*->*
+        - Multiplicative            ซ้ายไปขวา        */%
+        - Additive                  ซ้ายไปขวา        +-
+        - Logical AND               ซ้ายไปขวา        &&
+        - Logical OR                ซ้ายไปขวา        ||
+        - Conditional               ขวาไปซ้าย        ? :

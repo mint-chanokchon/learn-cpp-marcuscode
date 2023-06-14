@@ -1,0 +1,24 @@
+
+    - ค่าคงที่ (Constant) เป็นตัวแปรประเภทหนึ่งที่ไม่สามารถแปลงค่าได้
+    ในขณะที่โปรแกรมทำงาน
+
+    - จะต้องกำหนดค่าให้กับตัวแปรก่อนการ compile
+
+    - Literal ใช้สำหรับเรียกค่าคงที่
+
+    > สามารถแบ่งประเภทของค่าคงที่ได้ดังนี้
+        - Integer
+        - Floating-point 
+        - Character
+        - String
+        - Boolean
+        - Pointer
+
+    - const data_type identifier = value;
+
+    Preprocessor definitions
+        - ในการเขียนโปรแกรม c++ มีอีกหนึ่งทางในการประกาศค่าคงที่คือการใช้ 
+        Preprocessor definitions
+
+        - #define identifier replacement
+        - #define PI 3.14159
